@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:thonkiconn breadboard adapter v3-cache
+LIBS:thonkiconn_breadboard_adapter_v3-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 8268 5827
