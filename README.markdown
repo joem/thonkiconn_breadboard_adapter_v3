@@ -5,9 +5,11 @@ My second attempt at a breadboard adapter for using "Thonkiconn"-style 3.5mm mon
 
 This is mostly based on [little-scale’s similar board](http://little-scale.blogspot.com/2017/11/thonkiconn-breadboard-adapter-for.html) but I wanted a smaller board and labels for the connections.
 
-_Note: The grounds are not connected to each other on the board. I did it this way so that you can pass two wildly different signals through the jacks independently if desired. (In truth, there probably aren't very many use cases where this is necessary.)_
+:information_source: _Note: The grounds are not connected to each other on the board. I did it this way so that you can pass two wildly different signals through the jacks independently if desired. (In truth, there probably aren't very many use cases where this is necessary.)_
 
 This was designed as a KiCad project, but if you want to fabricate a PCB you don't need KiCad since the gerbers are in the [gerbers folder](gerbers/). Also, there's a PDF schematic in the [pdfs directory](pdfs/) though it's very simple. And if you just want to order PCBs, [there's an OSHPark project of the previous, nearly-identical version](https://oshpark.com/shared_projects/N9XmX8cB) (the traces were in a different place and a little thinner on the older board).
+
+Opening the KiCad project requires KiCad 6 at a minimum. I've removed the old KiCad 5 files.
 
 ## BOM:
 
